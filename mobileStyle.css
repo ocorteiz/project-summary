@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #b1c0f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.233);
+    height: 510px;
+    width: 300px;
+}
+
+div#img {
+    height: 150px;
+    background-image: url(images/illustration-hero.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+p {
+    margin: 0px 20px 20px 20px;
+}
+
+div#plan {
+    background-color: #eceffb;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#plan h3 {
+    color: rgb(172, 172, 172);
+}
+
+div#plan h4 {
+    font-size: .9em;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+div#plan h4:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div#value {
+    text-align: left;
+    margin-right: 15px;
+}
+
+div#value h2, h3 {
+    font-size: 1em;
+    margin: 5px;
+}
+
+h4#pagament {
+    background-color: #382ae1;
+    color: white;
+    margin: 0px 20px 20px 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #392ae137;
+}
+
+h4#pagament:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+h4#cancel {
+    margin: 0px 0px 20px 0px;
+    color: rgb(132, 132, 132);
+}
+
+h4#cancel:hover {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+

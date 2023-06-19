@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    section {
+        height: 600px;
+        width: 460px;
+    }
+
+    div#img {
+        height: 250px;
+    }
+
+    div#value {
+        margin-right: 130px;
+    }
+}
